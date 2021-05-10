@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import Donut from './components/Doughnut'
+// import ChartsPage from './components/ChartsPage'
+// import MasksPage from './components/MaskPage'
+// import MediaCard from './components/CardPage'
+// import Hook from './components/Hook'
+// import SunBusrt from './components/Sunburts'
+// import SunBurstPage from './components/Sunburst'
+// import SimpleSlider from './components/Carousel'
+import MyCarousel from './components/CardCarousel'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    
+    <>
+      <MyCarousel />
+    </>
+    
+  )
 }
-
 export default App;

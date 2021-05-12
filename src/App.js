@@ -7,13 +7,14 @@ import React from "react";
 // import SunBusrt from './components/Sunburts'
 // import SunBurstPage from './components/Sunburst'
 // import SimpleSlider from './components/Carousel'
-import MyCarousel from './components/CardCarousel'
+// import MyCarousel from './components/CardCarousel'
+import CollapsibleTable from './components/CollapsibleTable'
 
 const App = () => {
   return (
     
     <>
-      <MyCarousel />
+      <CollapsibleTable />
     </>
     
   )
